@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 // Define a simple route for GET
 app.get("/",(req,res) => {
-    res.send("Hi from my Express Server. From past Bianca.")
+    res.send("Hi from your Express Server. From past you. You are awesome.")
 });
 
 // Listen
