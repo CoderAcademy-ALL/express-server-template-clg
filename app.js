@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 
 // Sets port if deploying to external provider 
 // or port assigned already
-const port = process.env.port || 3030;
+const port = process.env.PORT || 3030;
 
 // Equivalant of create server in http library
 const app = express();
